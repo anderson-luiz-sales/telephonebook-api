@@ -1,0 +1,25 @@
+swagger:
+  contact:
+    name: Anderson Sales
+    email: anderson.luiz.sales@gmail.com
+  app:
+    name: Telephonebook API
+    version: 0.0.1
+    description: API responsável por gerenciar crud de uma agenda telefonica.
+  base:
+    package: br.com.telephonebook.telephonebookapi
+spring:
+  data:
+    mongodb:
+      host: db
+      port: 27017
+      database: telephonebook-api
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: null
+      path-mapping:
+        health: /healthcheck
