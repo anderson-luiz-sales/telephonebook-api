@@ -8,12 +8,14 @@ swagger:
     description: API responsável por gerenciar crud de uma agenda telefonica.
   base:
     package: br.com.telephonebook.telephonebookapi
+
 spring:
   data:
     mongodb:
       host: db
       port: 27017
       database: telephonebook-api
+
 management:
   endpoint:
     health:
