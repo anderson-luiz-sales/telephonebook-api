@@ -12,7 +12,7 @@ swagger:
 spring:
   data:
     mongodb:
-      host: localhost
+      host: db
       port: 27017
       database: telephonebook-api
 
@@ -28,7 +28,7 @@ management:
 
 openfeign:
   url:
-    hg-brasil-api: https://api.hgbrasil.com
+    hg-brasil-api: ${OPENFEIGN_URL_HGBRASILAPI}
 
 logging:
   level:
