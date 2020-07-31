@@ -12,5 +12,7 @@ public class Contact implements Serializable {
     private String name;
     private String address;
     private String email;
+    private String city;
+    private String uf;
     private List<TelephoneNumber> telephoneNumber;
 }

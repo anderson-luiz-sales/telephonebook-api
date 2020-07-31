@@ -5,6 +5,7 @@ services:
     entrypoint: ["sh", "-c", "java -Ddebug -cp app:app/lib/* br.com.telephonebook.telephonebookapi.TelephonebookapiApplication"]
     environment:
       - APP_ENV=dev
+      - OPENFEIGN_URL_HGBRASILAPI=https://api.hgbrasil.com
     depends_on:
       - db
     links:
