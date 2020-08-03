@@ -1,4 +1,4 @@
-# Catalog
+# Telephone Book API
 
 API responsável por agrupar informações de catálogo, como: Produtos, sku, categorias e marcas
 
