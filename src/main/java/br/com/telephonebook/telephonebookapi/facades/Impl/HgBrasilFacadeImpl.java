@@ -52,13 +52,13 @@ public class HgBrasilFacadeImpl implements HgBrasilFacade {
         } else if (temp >= 30 && description.equals("ensolarado")) {
             contactTemp.setMessage("Convide seu contato para ir à praia com esse calor!");
 
-        } else if (temp >= 30 && description.equals("chuva ou chuviscos")) {
+        } else if (temp >= 30 && description.equals("chuva") || description.equals("chuviscos")) {
             contactTemp.setMessage("Convide seu contato para tomar um sorvete");
 
         } else if (temp < 30 && temp > 18 && description.equals("tempo ensolarado")){
             contactTemp.setMessage("Convide seu contato para fazer alguma atividade ao livre");
 
-        } else if (temp < 30 && temp > 18 && description.equals("tempo com chuva ou chuviscos")) {
+        } else if (temp < 30 && temp > 18 && description.equals("tempo com chuva") || description.equals("chuviscos")) {
             contactTemp.setMessage("Convide seu contato para ver um filme");
         }
 

@@ -1,6 +1,6 @@
-# Telephone Book API
+# Catalog
 
-API responsável gerenciar cruds de contatos
+API responsável por agrupar informações de catálogo, como: Produtos, sku, categorias e marcas
 
 ### Pré-requisitos
 O que você precisa instalar para rodar o projeto?
